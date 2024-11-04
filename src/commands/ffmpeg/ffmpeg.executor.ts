@@ -2,7 +2,7 @@ import {CommandExecutor} from "../../core/executor/command.executor";
 import {IStreamLogger} from "../../core/handlers/stream-logger.interface";
 import {FFMPEGBuilder} from "./ffmpeg.builder";
 import {PromptService} from "../../core/prompt/prompt.service";
-import {ChildProcessWithoutNullStreams, spawn} from "node:child_process";
+import {ChildProcessWithoutNullStreams, spawn} from "child_process";
 import {ICommandExecFFMPEG, IFFMPEGInput} from "./ffmpeg.types";
 import {FileService} from "../../core/files/file.service";
 import {StreamHandler} from "../../core/handlers/stream.handler";
