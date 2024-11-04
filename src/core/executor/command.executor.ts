@@ -3,11 +3,6 @@ import {ChildProcessWithoutNullStreams} from "node:child_process";
 import {ICommandExec} from "./command.types";
 
 export abstract class CommandExecutor<Input> {
-    // input data
-     // build command
-     // spawn
-     // proccess trim ?
-     // public execute
 
      constructor(private logger: IStreamLogger) {
 

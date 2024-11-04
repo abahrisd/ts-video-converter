@@ -9,6 +9,8 @@ export class PromptService {
                 name: 'result',
                 message,
             }
-        ])
+        ]);
+
+        return result;
     }
 }
